@@ -1,0 +1,571 @@
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 1
+ROAS 2.5                   Retorno atual sobre anúncio
+Ticket R$ 700            Ticket médio do produto
+CPA R$ 250               Custo por aquisição atual
+R$ 150k/mês             Investimento mensal
+Diagnóstico Completo de Performance · Meta Ads · Google Ads · YouTube
+Magno Brandão
+BeConfident
+Case Técnico
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (0) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 2
+Audiência · Expansão · Eficiência de Formatos                     Inventário · Posicionamento · Funil de Retenção
+DEMAND GEN                                                                       YOUTUBE ADS
+Retenção Criativa · Fadiga · Estrutura · Lances                     Intenção · Desperdício · Escalabilidade · Leilão
+META ADS                                                                             GOOGLE SEARCH
+Frentes de Diagnóstico
+impedem uma escala previsível e sustentável.
+ν
+Operação rentável, mas frágil. A dependência de poucos criativos e as falhas de tracking
+ν
+A Dor Principal
+Investimento de R$ 150k/mês · CPA de R$ 250 · Ticket de R$ 700 · ROAS de 2.5
+ν
+O Cenário Atual
+Contexto Operacional
+objetivo é revelar o Big Picture e demonstrar compreensão sistêmica do cenário.
+Este documento mapeia os principais gargalos da operação antes de descer para os canais. O
+ν FOCO DA ANÁLISE
+e Sinais de Alerta
+Visão Geral do Desafio
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (1) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 3
+Taxa de clique no criativo                                                       Custo por aquisição da peça
+CTR DE SAÍDA                                                                      CPA MÉDIO
+Impressões vs. Visualizações de 3s                                       Visualizações 3s vs. Visualizações a 25%
+HOOK RATE                                                                          HOLD RATE
+Métricas Avaliadas
+identificar gargalos sistêmicos na retenção do público.
+Relatório customizado a nível de conta, isolando as colunas de visualização por quartis para
+02
+Como vou analisar
+Ação) cruzada com o volume de investimento.
+A eficiência estrutural em massa de cada etapa dos vídeos ativos (Atenção, Retenção e
+01
+O que vou analisar
+Escopo da Análise
+criativos e entender matematicamente o que funciona.
+Mapear padrões de consumo de vídeo na operação para resolver a dependência de poucos
+ν FOCO DA ANÁLISE
+Retenção Criativa · Hook vs. Hold Rate
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (2) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 4
+Ação                                     Testar novos corpos                             Testar novos ganchos
+Problema                             Mensagem / corpo do vídeo                 Hook / abertura do vídeo
+CPA                                      Limite da rentabilidade                         Excelente e previsível
+Hold Rate                             Baixo — evasão massiva                        Alto — audiência retida
+Hook Rate                            Alto (>35%)                                                     Baixo (<15%)
+Dimensão                          Cenário A                                            Cenário B
+Comparativo Rápido
+e permitindo escalar campanhas estranguladas.
+Direcionar a edição para criar blocos de variações apenas dos ganchos, destravando a liquidez
+ν AÇÃO ESTRATÉGICA
+distribuição.
+geral muito baixo (<15%). A oferta e os gatilhos finais são fortes, mas a embalagem inicial asfixia a
+Grupos de anúncios que sustentam um CPA excelente de forma previsível, mas com Hook Rate
+ν PADRÃO IDENTIFICADO
+Cenário B         "Diamantes Brutos"
+para o "corpo" do vídeo.
+Extrair os 3 segundos iniciais (já validados pelo leilão) e criar testes em lote com novos roteiros
+ν AÇÃO ESTRATÉGICA
+ganchos atraem cliques curiosos, mas a estrutura da mensagem falha logo em seguida.
+mas sofrem evasão massiva no Hold Rate, operando com CPA no limite da rentabilidade. Os
+Criativos que concentram o maior volume de gastos e entregam um Hook Rate excelente (>35%),
+ν PADRÃO IDENTIFICADO
+Cenário A         "Falsos Campeões"
+Retenção Criativa · Hipóteses
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (3) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 5
+Custo por mil impressões                                                       Variação nas métricas de saída
+CPM MÉDIO                                                                           CTR + CPA VOLÁTIL
+Frequência média da campanha                                            Proporção e expansão de base
+FREQUÊNCIA GLOBAL                                                        ALCANCE vs. IMPRESSÕES
+Métricas Avaliadas
+campanhas core de escala.
+Inspeção do cruzamento entre as curvas de entrega no Gerenciador, agrupadas pelas
+02
+Como vou analisar
+encontrar demanda nova sem destruir as métricas de leilão.
+A relação macro entre o aumento de injeção de verba e a capacidade do ecossistema de
+01
+O que vou analisar
+Escopo da Análise
+para entender matematicamente por que a conta não sustenta a escala.
+Diagnosticar padrões sistêmicos de quebra de performance durante injeções de orçamento
+ν FOCO DA ANÁLISE
+Fadiga e Saturação na Escala
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (4) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 6
+estrutura de testes (Sandbox).
+Isolar a campanha e injetar um novo lote massivo de criativos previamente validados na
+ν AÇÃO ESTRATÉGICA
+útil (Ad Fatigue) mesmo com público disponível.
+vertiginosamente acompanhado da explosão do CPA. O ecossistema criativo exauriu sua vida
+Grupos onde o orçamento sobe e o Alcance expande de forma saudável, mas o CTR de Saída cai
+ν PADRÃO IDENTIFICADO
+Cenário B         "Fadiga Criativa Cega"
+para forçar entrega em novos bolsões mais baratos.
+Pausar a escala vertical forçada, expandir para Broad (Aberto) e ativar controles rígidos de lance
+ν AÇÃO ESTRATÉGICA
+de expandir e está "espremendo" a mesma base quente.
+Alcance, enquanto Impressões e Frequência disparam com inflação do CPM. O algoritmo parou
+Campanhas de escala onde a injeção vertical de orçamento gera estagnação no crescimento do
+ν PADRÃO IDENTIFICADO
+Cenário A         "Saturação de Base"
+Fadiga e Saturação · Hipóteses
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (5) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 7
+Volume de alterações manuais na conta                               Grau de pulverização dos conjuntos
+HISTÓRICO DE EDIÇÕES                                                    ESTRUTURA DE CAMPANHAS
+% do orçamento em Aprendizado Limitado                            Volume médio por conjunto ativo
+LEARNING LIMITED                                                             CONVERSÕES / 7 DIAS
+Métricas Avaliadas
+concentração de verba.
+Análise massiva da aba de Conjuntos de Anúncios, filtrando por status de veiculação e
+02
+Como vou analisar
+learning (Pixel) do Meta Ads.
+O nível de pulverização do orçamento e o impacto direto na estabilização do machine
+01
+O que vou analisar
+Escopo da Análise
+Resolver a "baixa previsibilidade" analisando a arquitetura da conta e a distribuição de verba.
+ν FOCO DA ANÁLISE
+Estrutura e Liquidez de Dados
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (6) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 8
+otimização de lances.
+Implementar regras automatizadas de escala via painel para eliminar o fator humano da
+ν AÇÃO ESTRATÉGICA
+gestão, não pelo algoritmo.
+frequentes (>20%) ou troca constante de anúncios. A inteligência está sendo "resetada" pela
+Campanhas com liquidez de orçamento mas alta volatilidade no CPA, causada por edições
+ν PADRÃO IDENTIFICADO
+Cenário B         "Microgerenciamento Humano"
+grandes campanhas (Advantage+ ou CBO) para garantir liquidez de dados no leilão.
+Aplicação drástica de Simplified Account Structure (SBSA): consolidar o orçamento em 1 ou 2
+ν AÇÃO ESTRATÉGICA
+imprevisibilidade na conta.
+maioria operar sem bater a cota de 50 conversões semanais. Este é o principal gerador de
+A verba mensal (R$ 150k) está diluída em dezenas de conjuntos simultâneos, fazendo a grande
+ν PADRÃO IDENTIFICADO
+Cenário A         "Asfixia por Pulverização"
+Estrutura e Liquidez · Hipóteses
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (7) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                          Pág. 9
+Campanhas com Limite de Lance ativado                             Capacidade de gastar o orçamento diário
+BID CAP                                                                                 DELIVERY RATE
+Baixo
+% do orçamento em Volume Máximo / Custo Mais                Campanhas com Limite de Custo ativado
+LOWEST COST                                                                     COST CAP
+Métricas Avaliadas
+concentração de verba nas campanhas de escala.
+Análise massiva da aba de Conjuntos de Anúncios, filtrando por status de veiculação e
+02
+Como vou analisar
+com foco na estratégia de lance aplicada.
+O nível de pulverização do orçamento e o impacto na estabilização do machine learning —
+01
+O que vou analisar
+Escopo da Análise
+estratégia de lances nas campanhas core.
+Blindar o caixa e garantir entrega eficiente do orçamento por meio da calibração cirúrgica da
+ν FOCO DA ANÁLISE
+Engenharia de Lances
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (8) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 10
+renovação da base de criativos para forçar o custo base do leilão para baixo no médio prazo.
+Realizar micro-ajustes de aumento no Bid para destravar liquidez, operando em paralelo com
+ν AÇÃO ESTRATÉGICA
+com os criativos atuais.
+(não conseguem gastar o orçamento diário). O teto imposto está abaixo do piso de custo do leilão
+Campanhas com Cost Cap ou Bid Cap ativados que apresentam problemas severos de delivery
+ν PADRÃO IDENTIFICADO
+Cenário B         "Asfixia de Entrega"
+Cap (trava dura no leilão), blindando o caixa contra picos de custo.
+Transição progressiva para Cost Cap (flexibilidade para CPA médio viável, ex: R$ 250) ou Bid
+ν AÇÃO ESTRATÉGICA
+sistêmica.
+isso obriga a conta a absorver todas as flutuações caras do leilão, inflando o CPA de forma
+A maior parte do orçamento core opera em 100% Volume Máximo / Lowest Cost. Em escala,
+ν PADRÃO IDENTIFICADO
+Cenário A         "Escala Desprotegida"
+Engenharia de Lances · Hipóteses
+Diagnóstico Meta Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (9) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 11
+CPA segmentado por tipo de match                                       Intenção transacional vs. informacional
+CPA POR CORRESPONDÊNCIA                                         QUALIDADE DO TRÁFEGO
+% de gasto alocado em Correspondência Ampla                  Volume de buscas por termos gratuitos/informativos
+BROAD MATCH %                                                                TERMOS UTILITÁRIOS
+Métricas Avaliadas
+de correspondência de palavra-chave que acionou o leilão.
+Exportação macro do Relatório de Termos de Pesquisa (Search Terms), cruzado com o tipo
+02
+Como vou analisar
+de inglês.
+O grau de aderência do tráfego comprado com a real intenção de compra de um curso pago
+01
+O que vou analisar
+Escopo da Análise
+na Rede de Pesquisa, isolando quem quer aprender inglês de quem quer apenas pesquisar.
+Diagnosticar o vazamento de caixa causado pela "pouca segmentação e campanhas abertas"
+ν FOCO DA ANÁLISE
+Intenção e Desperdício · Search Terms
+Diagnóstico Google Search
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (10) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 12
+das campanhas genéricas sem esse viés.
+Blindar os termos de marca em uma campanha de proteção isolada e avaliar a rentabilidade real
+ν AÇÃO ESTRATÉGICA
+carona em quem já ia comprar.
+Non-Brand. Isso mascara o CPA real, fazendo campanhas ruins parecerem boas porque pegam
+Termos institucionais ("BeConfident", "curso BeConfident") misturados dentro das campanhas
+ν PADRÃO IDENTIFICADO
+Cenário B         "Canibalização de Marca"
+desperdício de caixa.
+dos termos Bottom of Funnel em campanhas de Correspondência Exata, estancando o
+Aplicação massiva de listas de palavras-chave negativas (nível conta e campanha) e isolamento
+ν AÇÃO ESTRATÉGICA
+Response.
+inglês", "como falar oi em inglês", "curso de inglês grátis"). Esse padrão destrói o ROAS em Direct
+Grande volume de investimento sendo drenado por buscas não qualificadas (ex: "tradutor de
+ν PADRÃO IDENTIFICADO
+Cenário A         "Hemorragia por Correspondência Ampla"
+Intenção e Desperdício · Hipóteses
+Diagnóstico Google Search
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (11) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 13
+Parcela perdida por Classificação                                          Alertas de limite de meta de lance
+IS LOST (RANK)                                                                    SMART BIDDING STATUS
+Parcela de Impressão na Pesquisa                                        Parcela perdida por Orçamento
+SEARCH IMP. SHARE                                                          IS LOST (BUDGET)
+Métricas Avaliadas
+Impressão aplicadas às campanhas Core de fundo de funil.
+Análise da aba de Informações de Leilão (Auction Insights) e colunas de Parcela de
+02
+Como vou analisar
+configurações de orçamento e lances.
+A penetração da conta no mercado disponível e os gargalos impostos pelas atuais
+01
+O que vou analisar
+Escopo da Análise
+está sendo impedido de capturar mais vendas rentáveis.
+Mapear os tetos de escala na Rede de Pesquisa e entender exatamente onde o Google Ads
+ν FOCO DA ANÁLISE
+Escalabilidade e Gargalos de Leilão
+Diagnóstico Google Search
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (12) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 14
+dominar as primeiras posições nos leilões qualificados.
+Afrouxar a meta marginalmente (ex: aumentar o tCPA em 15%) para destravar o delivery e
+ν AÇÃO ESTRATÉGICA
+demais.
+atrelada a alertas de "Limitado pela meta de lance". O tCPA ou tROAS atual está agressivo
+Campanhas com verba diária de sobra mas alta Parcela de Impressão Perdida por Classificação,
+ν PADRÃO IDENTIFICADO
+Cenário B         "Asfixia por Lance do Smart Bidding"
+focar em maximizar 100% da Parcela de Impressão dos termos lucrativos.
+Realocação agressiva de recursos: retirar a verba das campanhas genéricas com desperdício e
+ν AÇÃO ESTRATÉGICA
+Impressão Perdida por Orçamento (>30%). A operação está deixando dinheiro na mesa.
+Campanhas de Correspondência Exata com ROAS excelente (>2.5), mas com alta Parcela de
+ν PADRÃO IDENTIFICADO
+Cenário A         "Asfixia de Orçamento em Campeões"
+Escalabilidade e Gargalos · Hipóteses
+Diagnóstico Google Search
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (13) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 15
+Conversões por segmento ativo                                             Nível de agressividade do lookalike
+VOLUME DE CONVERSÕES                                                EXPANSÃO DE PÚBLICO
+Custo / Conversão por segmento de público                         Taxa de Conversão por público
+CPA POR SEGMENTO                                                          CVR DA AUDIÊNCIA
+Métricas Avaliadas
+da campanha.
+Inspeção da aba nativa "Públicos-alvo" e análise do relatório de desempenho por segmento
+02
+Como vou analisar
+na expansão do público configurada na campanha.
+A arquitetura dos Segmentos Semelhantes (Lookalikes) aplicados e o nível de agressividade
+01
+O que vou analisar
+Escopo da Análise
+relatórios nativos de público, garantindo que a escala não dilua o ROAS.
+Avaliar a qualidade das sementes (seeds) que alimentam o motor do Demand Gen usando os
+ν FOCO DA ANÁLISE
+Audiência e Expansão
+Diagnóstico Google Demand Gen
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (14) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 16
+Personalizados criados com termos de pesquisa da concorrência.
+Aplicar exclusão nativa de visitantes/compradores (0-15 dias) e realocar verba para Segmentos
+ν AÇÃO ESTRATÉGICA
+vez de tráfego frio. Está reciclando o funil em vez de criar demanda nova.
+A campanha de Demand Gen está rodando massivamente com listas de visitantes passados em
+ν PADRÃO IDENTIFICADO
+Cenário B         "Saturação de Remarketing"
+do Lookalike no nível mais estrito (Alcance Estreito).
+Refazer a base utilizando Customer Match (Lista de Clientes com alto LTV) e travar a expansão
+ν AÇÃO ESTRATÉGICA
+excessiva.
+os visitantes), gerando alto gasto, baixo CVR e CPA estourado. O algoritmo tem liberdade
+A campanha ativa a "Expansão de Público" máxima em cima de sementes genéricas (ex: Todos
+ν PADRÃO IDENTIFICADO
+Cenário A         "Expansão Desqualificada"
+Audiência e Expansão · Hipóteses
+Diagnóstico Google Demand Gen
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (15) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 17
+Custo por Conversão do recurso                                            Distribuição de verba Vídeo vs. Estático
+CPA DO RECURSO                                                               GASTO POR FORMATO
+Baixo / Bom / Melhor por recurso                                           Taxa de clique segmentada por ativo
+CLASS. DESEMPENHO                                                        CTR POR FORMATO
+Métricas Avaliadas
+visualização de "Detalhes do Anúncio".
+Acesso à aba "Recursos" (Assets) dentro da campanha de Demand Gen, cruzando com a
+02
+Como vou analisar
+classificação de performance dada pelo próprio Google.
+A distribuição do investimento entre os ativos visuais (Vídeo vs. Imagens estáticas) e a
+01
+O que vou analisar
+Escopo da Análise
+Google.
+drenam verba dos que geram lucro direto, usando o mapeamento de recursos (Assets) do
+Diagnosticar o alinhamento entre o formato e a intenção de clique, isolando os formatos que
+ν FOCO DA ANÁLISE
+Eficiência de Formatos · Relatório de Recursos
+Diagnóstico Google Demand Gen
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (16) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 18
+no leilão móvel.
+Submeter criativos verticais com estética UGC para forçar o CPM médio da campanha para baixo
+ν AÇÃO ESTRATÉGICA
+formato.
+performar barato no inventário de Shorts. O CPM médio está artificialmente alto por falta do
+Ausência total de vídeos na proporção 9:16 (Verticais). Demand Gen exige adaptação nativa para
+ν PADRÃO IDENTIFICADO
+Cenário B         "Inércia Vertical"
+imersivos de vídeo (YouTube In-feed e Shorts), que exigem intenção real para gerar o clique.
+Pausar os recursos estáticos de baixa performance e forçar o algoritmo a gastar em formatos
+ν AÇÃO ESTRATÉGICA
+mas CVR próximo de zero e CPA altíssimo. Cliques acidentais estão destruindo a margem.
+A maior parte da verba sendo sugada por imagens estáticas (Gmail/Discover) com CTR inflado,
+ν PADRÃO IDENTIFICADO
+Cenário A         "A Armadilha Estática"
+Eficiência de Formatos · Hipóteses
+Diagnóstico Google Demand Gen
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (17) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 19
+Volume de cliques por tipo de dispositivo                              Aderência temática do inventário
+SMART TVs vs. MOBILE                                                      QUALIDADE DO CANAL
+Custo alocado por canal/conteúdo                                         CPA segmentado por posicionamento
+CUSTO POR CANAL                                                             CPA POR POSICIONAMENTO
+Métricas Avaliadas
+showed), cruzada com a exclusão por dispositivo.
+Inspeção massiva da aba "Conteúdo > Onde os anúncios foram exibidos" (Where ads
+02
+Como vou analisar
+impressos.
+A aderência e a qualidade dos canais e vídeos onde os anúncios estão sendo efetivamente
+01
+O que vou analisar
+Escopo da Análise
+ocorre quando o anúncio roda para o perfil exato, mas no contexto errado.
+Mapear para "onde" o algoritmo está jogando o dinheiro. O vazamento de caixa silencioso
+ν FOCO DA ANÁLISE
+Posicionamento e Desperdício de Inventário
+Diagnóstico YouTube Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (18) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 20
+independentemente do canal assistido.
+Intent), impactando o usuário que pesquisou pelo concorrente no Google Search,
+Expandir substituindo segmentação manual por Públicos de Intenção Personalizada (Custom
+ν AÇÃO ESTRATÉGICA
+precisa de escala.
+sofrendo com CPM caríssimo e incapacidade de gastar o orçamento diário. YouTube Ads
+Campanhas que tentam segmentar exclusivamente 3-4 grandes canais de concorrentes de inglês,
+ν PADRÃO IDENTIFICADO
+Cenário B         "Asfixia por Hiper-Segmentação"
+infantis padrão) e remover imediatamente a veiculação em Telas de TV (Smart TVs).
+Aplicação cirúrgica de Listas de Exclusão de Tópicos e Canais (negativar +10.000 canais
+ν AÇÃO ESTRATÉGICA
+entregam impressões sem possibilidade de clique real para comprar um curso de R$ 700.
+músicas/podcasts longos, gerando cliques baratos mas CPA infinito. Além disso, Smart TVs
+60% a 80% do investimento drenado por canais infantis (cliques acidentais) ou compilações de
+ν PADRÃO IDENTIFICADO
+Cenário A         "A Hemorragia Infantil / Musical"
+Posicionamento e Inventário · Hipóteses
+Diagnóstico YouTube Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (19) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 21
+Taxa de clique no vídeo                                                         Visualizações a 25%, 50%, 75% e 100%
+CTR DE SAÍDA                                                                      QUARTIS DE RETENÇÃO
+Taxa de Visualização do vídeo                                               Custo por Visualização
+VIEW RATE                                                                            CPV
+Métricas Avaliadas
+do Google Ads.
+Customização das colunas da campanha para habilitar o funil nativo de consumo de vídeo
+02
+Como vou analisar
+atenção ou na incapacidade de gerar o clique.
+O engajamento nativo do vídeo para entender se o problema está na capacidade de prender
+01
+O que vou analisar
+Escopo da Análise
+final dita o ROAS. O objetivo é diagnosticar onde o usuário perde o interesse.
+Em Direct Response no YouTube, os primeiros 5 segundos ditam o custo do tráfego, e a ação
+ν FOCO DA ANÁLISE
+Funil de Retenção e Engajamento de Vídeo
+Diagnóstico YouTube Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (20) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 22
+urgência do clique. Adicionar extensões de Sitelinks massivas abaixo do vídeo.
+Substituir por anúncios em formato VSL (Video Sales Letter), mais agressivos e focados na
+ν AÇÃO ESTRATÉGICA
+fraco ou inexistente.
+assistem ao vídeo inteiro e não compram. O vídeo parece uma "aula gratuita" e o Call to Action é
+Vídeos com View Rate excelente e altíssima retenção aos 75%, mas CTR pífio. As pessoas
+ν PADRÃO IDENTIFICADO
+Cenário B         "A Síndrome do Muito Conteúdo"
+travar na entrevista de emprego em inglês) para abaixar o CPV.
+Refazer exclusivamente os primeiros 5 segundos dos vídeos, focando em dores agudas (ex:
+ν AÇÃO ESTRATÉGICA
+pula no segundo 5. O problema não é o curso, é o hook que falha em gerar retenção inicial.
+Vídeos que consomem muita verba com View Rate péssimo (<15%) e CPV altíssimo. O usuário
+ν PADRÃO IDENTIFICADO
+Cenário A         "Cegueira no Gancho"
+Funil de Retenção · Hipóteses
+Diagnóstico YouTube Ads
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (21) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 23
+[ Relação entre as frentes Meta Ads · Google · YouTube ]
+INTERDEPENDÊNCIAS
+[ Fases de implementação e marcos de entrega ]
+TIMELINE DE EXECUÇÃO
+[ Estimativas de CPA, ROAS e escala após implementação ]
+PROJEÇÃO DE RESULTADOS
+[ Ranking das alavancas de maior impacto vs. menor esforço ]
+PRIORIZAÇÃO DE INICIATIVAS
+Visão consolidada e plano de priorização
+Estratégia de Crescimento
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (22) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 24
+[ Hook · Corpo · CTA · Formato · Duração ]
+TIPOS DE VARIAÇÃO
+[ Métricas de corte para promover criativos ao core ]
+CRITÉRIOS DE GRADUAÇÃO
+[ Quantidade de variações por ciclo e cadência de testes ]
+VOLUMES E FREQUÊNCIA
+[ Configuração da campanha de testes isolada ]
+ESTRUTURA DE SANDBOX
+Framework de iteração e validação criativa
+Plano de Testes de Criativos
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (23) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 25
+[ Eventos customizados necessários para rastreio completo ]
+DATA LAYER E EVENTOS
+[ Modelo de atribuição atual vs. recomendado ]
+ATRIBUIÇÃO CROSS-CHANNEL
+[ Revisão de tags de conversão e consistency check ]
+GOOGLE TAG MANAGER
+[ Auditoria do Meta Pixel e eventos de conversão configurados ]
+DIAGNÓSTICO DE PIXEL
+Tracking e Qualidade de Dados
+Sugestões de Melhoria
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (24) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 26
+[ Análise de resultados · Escala dos vencedores · Ajuste de lances ]
+SEMANA 4 · OTIMIZAÇÃO
+[ Lote de testes · Hooks prioritários · Formatos verticais ]
+SEMANA 3 · CRIATIVOS
+[ Reorganização de campanhas · Aplicação de SBSA · Negativação ]
+SEMANA 2 · ESTRUTURA
+[ Auditoria de contas · Coleta de dados · Mapeamento de gargalos ]
+SEMANA 1 · DIAGNÓSTICO
+Plano de execução semana a semana
+Roadmap 30 Dias
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (25) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 27
+[ Iniciativas de parceria, afiliados ou co-marketing ]
+PARCERIA E GROWTH
+[ Variações de preço, funil e proposta de valor ]
+TESTES DE OFERTA
+[ Rotinas de otimização automatizadas e alertas ]
+AUTOMAÇÃO E PROCESSOS
+[ Novas frentes de aquisição não exploradas atualmente ]
+EXPANSÃO DE CANAIS
+Oportunidades além do diagnóstico imediato
+Novas Iniciativas
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (26) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 28
+Dados de conversão e LTV                                                    Análise e geração de insights
+CHECKOUT API                                                                    CLAUDE AI
+Automação de extração e ETL                                               Dados do Gerenciador de Anúncios
+n8n WORKFLOWS                                                                META GRAPH API
+Stack Técnica Prevista
+relatórios automáticos, permitindo validar a lógica antes da implementação completa.
+Construir com o Claude um sistema mockado de análise que simule os dashboards e
+ν
+Sistema Mockado com Claude
+de Anúncios em tempo real, consolidando as métricas em uma base unificada.
+ν
+Construir fluxos automatizados no n8n para extrair dados do Checkout e do Gerenciador
+ν
+Extração com n8n
+Componentes da Plataforma
+decisão.
+das métricas críticas da operação, eliminando o trabalho manual e acelerando a tomada de
+Construir uma infraestrutura de dados que automatize a extração, consolidação e visualização
+ν FOCO DA ANÁLISE
+de Análise e Escala
+Construção da Plataforma
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (27) Break----------------
+Diagnóstico de Performance · Uso Interno                                                                                                                                                        Pág. 29
+[ KPIs de acompanhamento da operação no longo prazo ]
+INDICADORES DE SAÚDE
+[ Volume de investimento sustentável após as implementações ]
+CAPACIDADE DE ESCALA
+[ ROAS esperado com a estrutura otimizada em 30-60-90 dias ]
+PROJEÇÃO DE ROAS
+[ Redução de CPA target e prazo estimado para alcançar ]
+METAS DE CPA
+após implementação
+Resultado Esperado
+CASE TÉCNICO · BeConfident                                                                   Diagnóstico de Performance · Magno Brandão
+----------------Page (28) Break----------------

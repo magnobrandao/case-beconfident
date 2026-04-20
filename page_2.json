@@ -1,0 +1,513 @@
+[
+  {
+    "text": "CASE TÉCNICO · BeConfident",
+    "x": 57,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 186,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Diagnóstico de Performance · Magno Brandão",
+    "x": 353,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Diagnóstico de Performance · Uso Interno",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 196,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Pág. 2",
+    "x": 517,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Visão Geral do Desafio",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "e Sinais de Alerta",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 97,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 97,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 103,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "FOCO DA ANÁLISE",
+    "x": 105,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 97,
+    "y": 1045,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Este documento mapeia os principais gargalos da operação antes de descer para os canais. O",
+    "x": 97,
+    "y": 1045,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "objetivo é revelar o",
+    "x": 97,
+    "y": 1059,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 177,
+    "y": 1059,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Big Picture",
+    "x": 180,
+    "y": 1059,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 230,
+    "y": 1059,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "e demonstrar compreensão sistêmica do cenário.",
+    "x": 233,
+    "y": 1059,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 1117,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Contexto Operacional",
+    "x": 63,
+    "y": 1117,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 90,
+    "y": 1141,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 90,
+    "y": 1141,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 98,
+    "y": 1141,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "O Cenário Atual",
+    "x": 119,
+    "y": 1137,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Investimento de",
+    "x": 119,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 186,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "R$ 150k/mês",
+    "x": 189,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 246,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "· CPA de",
+    "x": 249,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 287,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "R$ 250",
+    "x": 290,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 320,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "· Ticket de",
+    "x": 323,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 367,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "R$ 700",
+    "x": 369,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 400,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "· ROAS de",
+    "x": 403,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 448,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "2.5",
+    "x": 451,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 90,
+    "y": 1183,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 90,
+    "y": 1183,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 90,
+    "y": 1195,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1178,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "A Dor Principal",
+    "x": 119,
+    "y": 1178,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1191,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Operação rentável, mas",
+    "x": 119,
+    "y": 1191,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 223,
+    "y": 1191,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "frágil",
+    "x": 226,
+    "y": 1191,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": ". A dependência de poucos criativos e as falhas de tracking",
+    "x": 249,
+    "y": 1191,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "impedem uma escala previsível e sustentável.",
+    "x": 119,
+    "y": 1205,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 1261,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Frentes de Diagnóstico",
+    "x": 63,
+    "y": 1261,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1284,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "META ADS",
+    "x": 71,
+    "y": 1284,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Retenção Criativa · Fadiga · Estrutura · Lances",
+    "x": 71,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1284,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "GOOGLE SEARCH",
+    "x": 283,
+    "y": 1284,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Intenção · Desperdício · Escalabilidade · Leilão",
+    "x": 283,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1339,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "DEMAND GEN",
+    "x": 71,
+    "y": 1339,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1361,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Audiência · Expansão · Eficiência de Formatos",
+    "x": 71,
+    "y": 1361,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1339,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "YOUTUBE ADS",
+    "x": 283,
+    "y": 1339,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1361,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Inventário · Posicionamento · Funil de Retenção",
+    "x": 283,
+    "y": 1361,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  }
+]

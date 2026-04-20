@@ -1,0 +1,464 @@
+[
+  {
+    "text": "CASE TÉCNICO · BeConfident",
+    "x": 57,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 186,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Diagnóstico de Performance · Magno Brandão",
+    "x": 353,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Diagnóstico de Performance · Uso Interno",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 196,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Pág. 28",
+    "x": 513,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Construção da Plataforma",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "de Análise e Escala",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 97,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 97,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 103,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "FOCO DA ANÁLISE",
+    "x": 105,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 97,
+    "y": 1045,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Construir uma infraestrutura de dados que automatize a extração, consolidação e visualização",
+    "x": 97,
+    "y": 1045,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "das métricas críticas da operação, eliminando o trabalho manual e acelerando a tomada de",
+    "x": 97,
+    "y": 1059,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "decisão.",
+    "x": 97,
+    "y": 1073,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 1131,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Componentes da Plataforma",
+    "x": 63,
+    "y": 1131,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 90,
+    "y": 1155,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 90,
+    "y": 1155,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 90,
+    "y": 1167,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1151,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Extração com n8n",
+    "x": 119,
+    "y": 1151,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Construir fluxos automatizados no n8n para extrair dados do",
+    "x": 119,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 381,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Checkout",
+    "x": 384,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 428,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "e do",
+    "x": 431,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 451,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Gerenciador",
+    "x": 454,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "de Anúncios",
+    "x": 119,
+    "y": 1178,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 176,
+    "y": 1178,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "em tempo real, consolidando as métricas em uma base unificada.",
+    "x": 179,
+    "y": 1178,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 90,
+    "y": 1211,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 90,
+    "y": 1211,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 98,
+    "y": 1211,
+    "fontSize": 10,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "Sistema Mockado com Claude",
+    "x": 119,
+    "y": 1206,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1219,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Construir com o Claude um",
+    "x": 119,
+    "y": 1219,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 242,
+    "y": 1219,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "sistema mockado de análise",
+    "x": 246,
+    "y": 1219,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 380,
+    "y": 1219,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "que simule os dashboards e",
+    "x": 384,
+    "y": 1219,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "relatórios automáticos, permitindo validar a lógica antes da implementação completa.",
+    "x": 119,
+    "y": 1233,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 1289,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Stack Técnica Prevista",
+    "x": 63,
+    "y": 1289,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1320,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "n8n WORKFLOWS",
+    "x": 71,
+    "y": 1320,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1342,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Automação de extração e ETL",
+    "x": 71,
+    "y": 1342,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1320,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "META GRAPH API",
+    "x": 283,
+    "y": 1320,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1342,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Dados do Gerenciador de Anúncios",
+    "x": 283,
+    "y": 1342,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1376,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "CHECKOUT API",
+    "x": 71,
+    "y": 1376,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1398,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Dados de conversão e LTV",
+    "x": 71,
+    "y": 1398,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1376,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "CLAUDE AI",
+    "x": 283,
+    "y": 1376,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1398,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Análise e geração de insights",
+    "x": 283,
+    "y": 1398,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  }
+]

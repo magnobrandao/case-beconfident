@@ -1,0 +1,366 @@
+[
+  {
+    "text": "CASE TÉCNICO · BeConfident",
+    "x": 57,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 186,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Diagnóstico de Performance · Magno Brandão",
+    "x": 353,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Diagnóstico de Performance · Uso Interno",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 196,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Pág. 21",
+    "x": 513,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Diagnóstico YouTube Ads",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Funil de Retenção e Engajamento de Vídeo",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 97,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 97,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 103,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "FOCO DA ANÁLISE",
+    "x": 105,
+    "y": 1017,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 97,
+    "y": 1045,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Em Direct Response no YouTube, os primeiros 5 segundos ditam o custo do tráfego, e a ação",
+    "x": 97,
+    "y": 1045,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "final dita o ROAS. O objetivo é diagnosticar onde o usuário perde o interesse.",
+    "x": 97,
+    "y": 1059,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 1117,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Escopo da Análise",
+    "x": 63,
+    "y": 1117,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 90,
+    "y": 1141,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "01",
+    "x": 90,
+    "y": 1141,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 101,
+    "y": 1141,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "O que vou analisar",
+    "x": 119,
+    "y": 1137,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "O engajamento nativo do vídeo para entender se o problema está na capacidade de prender",
+    "x": 119,
+    "y": 1150,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "atenção ou na incapacidade de gerar o clique.",
+    "x": 119,
+    "y": 1164,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 90,
+    "y": 1197,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "02",
+    "x": 90,
+    "y": 1197,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 101,
+    "y": 1197,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Como vou analisar",
+    "x": 119,
+    "y": 1192,
+    "fontSize": 10,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 119,
+    "y": 1205,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Customização das colunas da campanha para habilitar o funil nativo de consumo de vídeo",
+    "x": 119,
+    "y": 1205,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "do Google Ads.",
+    "x": 119,
+    "y": 1219,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 1275,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Métricas Avaliadas",
+    "x": 63,
+    "y": 1275,
+    "fontSize": 13,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "VIEW RATE",
+    "x": 71,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1328,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Taxa de Visualização do vídeo",
+    "x": 71,
+    "y": 1328,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "CPV",
+    "x": 283,
+    "y": 1306,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1328,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Custo por Visualização",
+    "x": 283,
+    "y": 1328,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1362,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "CTR DE SAÍDA",
+    "x": 71,
+    "y": 1362,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 71,
+    "y": 1384,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Taxa de clique no vídeo",
+    "x": 71,
+    "y": 1384,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1362,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "QUARTIS DE RETENÇÃO",
+    "x": 283,
+    "y": 1362,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 283,
+    "y": 1384,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Visualizações a 25%, 50%, 75% e 100%",
+    "x": 283,
+    "y": 1384,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  }
+]

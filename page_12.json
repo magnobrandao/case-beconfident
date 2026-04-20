@@ -1,0 +1,618 @@
+[
+  {
+    "text": "CASE TÉCNICO · BeConfident",
+    "x": 57,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 186,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Diagnóstico de Performance · Magno Brandão",
+    "x": 353,
+    "y": 879,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Diagnóstico de Performance · Uso Interno",
+    "x": 57,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 196,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Pág. 12",
+    "x": 513,
+    "y": 1670,
+    "fontSize": 8,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Diagnóstico Google Search",
+    "x": 63,
+    "y": 949,
+    "fontSize": 22,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Intenção e Desperdício · Hipóteses",
+    "x": 63,
+    "y": 970,
+    "fontSize": 11,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1019,
+    "fontSize": 11,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Cenário A",
+    "x": 98,
+    "y": 1019,
+    "fontSize": 11,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 150,
+    "y": 1019,
+    "fontSize": 11,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "\"Hemorragia por Correspondência Ampla\"",
+    "x": 177,
+    "y": 1017,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1042,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 98,
+    "y": 1042,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 104,
+    "y": 1042,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "PADRÃO IDENTIFICADO",
+    "x": 106,
+    "y": 1042,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1064,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Grande volume de investimento sendo drenado por buscas",
+    "x": 98,
+    "y": 1064,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 344,
+    "y": 1064,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "não qualificadas",
+    "x": 348,
+    "y": 1064,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 421,
+    "y": 1064,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "(ex: \"tradutor de",
+    "x": 425,
+    "y": 1064,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "inglês\", \"como falar oi em inglês\", \"curso de inglês grátis\"). Esse padrão destrói o ROAS em Direct",
+    "x": 98,
+    "y": 1077,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Response.",
+    "x": 98,
+    "y": 1090,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1120,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 98,
+    "y": 1120,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 104,
+    "y": 1120,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "AÇÃO ESTRATÉGICA",
+    "x": 106,
+    "y": 1120,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1141,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Aplicação massiva de",
+    "x": 98,
+    "y": 1141,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 185,
+    "y": 1141,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "listas de palavras-chave negativas",
+    "x": 187,
+    "y": 1141,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 335,
+    "y": 1141,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "(nível conta e campanha) e isolamento",
+    "x": 337,
+    "y": 1141,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "dos",
+    "x": 98,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 112,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "termos",
+    "x": 118,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 146,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Bottom",
+    "x": 152,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 181,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "of",
+    "x": 187,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 194,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Funnel",
+    "x": 200,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 228,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "em",
+    "x": 234,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 246,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "campanhas",
+    "x": 253,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 299,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "de",
+    "x": 305,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 315,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Correspondência",
+    "x": 321,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 395,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Exata",
+    "x": 401,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": ",",
+    "x": 425,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 428,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "estancando",
+    "x": 434,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 481,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "o",
+    "x": 487,
+    "y": 1154,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "desperdício de caixa.",
+    "x": 98,
+    "y": 1167,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1212,
+    "fontSize": 11,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "Cenário B",
+    "x": 98,
+    "y": 1212,
+    "fontSize": 11,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 150,
+    "y": 1212,
+    "fontSize": 11,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "\"Canibalização de Marca\"",
+    "x": 177,
+    "y": 1211,
+    "fontSize": 10,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1236,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 98,
+    "y": 1236,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 104,
+    "y": 1236,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "PADRÃO IDENTIFICADO",
+    "x": 106,
+    "y": 1236,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1257,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Termos institucionais (\"BeConfident\", \"curso BeConfident\") misturados dentro das campanhas",
+    "x": 98,
+    "y": 1257,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Non-Brand. Isso",
+    "x": 98,
+    "y": 1270,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 163,
+    "y": 1270,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "mascara o CPA real",
+    "x": 166,
+    "y": 1270,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": ", fazendo campanhas ruins parecerem boas porque pegam",
+    "x": 252,
+    "y": 1270,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "carona em quem já ia comprar.",
+    "x": 98,
+    "y": 1283,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1313,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "n",
+    "x": 98,
+    "y": 1313,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": " ",
+    "x": 104,
+    "y": 1313,
+    "fontSize": 8,
+    "fontName": "g_d0_f3"
+  },
+  {
+    "text": "AÇÃO ESTRATÉGICA",
+    "x": 106,
+    "y": 1313,
+    "fontSize": 8,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "",
+    "x": 98,
+    "y": 1335,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "Blindar os termos de marca em uma",
+    "x": 98,
+    "y": 1335,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": " ",
+    "x": 243,
+    "y": 1335,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "campanha de proteção isolada",
+    "x": 245,
+    "y": 1335,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": " ",
+    "x": 376,
+    "y": 1335,
+    "fontSize": 9,
+    "fontName": "g_d0_f2"
+  },
+  {
+    "text": "e avaliar a rentabilidade real",
+    "x": 379,
+    "y": 1335,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  },
+  {
+    "text": "das campanhas genéricas sem esse viés.",
+    "x": 98,
+    "y": 1348,
+    "fontSize": 9,
+    "fontName": "g_d0_f1"
+  }
+]

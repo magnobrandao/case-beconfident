@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neonBlue: #45f3ff;
+  --color-darkBg: #0b0c10;
+  --color-darkSurface: #1f2833;
+  --color-grayText: #c5c6c7;
+  --color-neonAccent: #66fcf1;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-darkBg);
+    color: var(--color-grayText);
+    @apply antialiased overflow-hidden font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white font-semibold tracking-tight;
+  }
+}
