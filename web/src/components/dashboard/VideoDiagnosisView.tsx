@@ -3,7 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, PieCha
 
 interface Props { ytData: YouTubeAdData[], dgData: DemandGenData[], checkout: CheckoutOrder[] }
 
-export function VideoDiagnosisView({ ytData, dgData, checkout }: Props) {
+export function VideoDiagnosisView({ ytData, dgData }: Props) {
   // YouTube: by channel category
   const byChannel = Object.values(ytData.reduce((acc, d) => {
     const k = d.channel_category

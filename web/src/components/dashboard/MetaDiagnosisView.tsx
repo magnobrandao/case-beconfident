@@ -106,7 +106,7 @@ export function MetaDiagnosisView({ data }: Props) {
               <YAxis type="number" dataKey="holdRate" name="Hold Rate" unit="%" tick={{fill:'#666',fontSize:10}} label={{value:'Hold Rate %',angle:-90,position:'insideLeft',fill:'#666',fontSize:10}} />
               <ZAxis type="number" dataKey="spend" range={[40,400]} />
               <Tooltip cursor={{strokeDasharray:'3 3'}} contentStyle={{background:'#1a1a1a',border:'1px solid #333',color:'#fff',fontSize:11}}
-                formatter={(v: any,n: string)=>[typeof v==='number'?v.toFixed(1):v,n]} labelFormatter={()=>''} />
+                formatter={(v: any,n: any)=>[typeof v==='number'?v.toFixed(1):v, String(n)]} labelFormatter={()=>''} />
               <Scatter data={aggregate.filter(a=>a.format==='video')} name="Criativos">
                 {aggregate.filter(a=>a.format==='video').map((e,i) => <Cell key={i} fill={cpaC(e.cpa)} opacity={0.8} />)}
               </Scatter>

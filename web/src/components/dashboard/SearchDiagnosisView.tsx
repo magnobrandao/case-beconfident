@@ -76,7 +76,7 @@ export function SearchDiagnosisView({ data, checkout }: Props) {
         <Card title="Distribuição de Gasto por Correspondência">
           <ResponsiveContainer width="100%" height={200}>
             <PieChart>
-              <Pie data={byMatch} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={70} label={({name,percent})=>`${name} ${(percent*100).toFixed(0)}%`}>
+              <Pie data={byMatch} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={70} label={({name,percent})=>`${name} ${((percent||0)*100).toFixed(0)}%`}>
                 {byMatch.map((_,i) => <Cell key={i} fill={COLORS[i%COLORS.length]} />)}
               </Pie>
               <Tooltip contentStyle={{background:'#1a1a1a',border:'1px solid #333',color:'#fff',fontSize:11}} formatter={(v: any) => `R$ ${v.toLocaleString()}`} />

@@ -1,4 +1,4 @@
-import type { Filters } from '../data/mock/types'
+import type { Filters } from '../../data/mock/types'
 
 interface Props {
   filters: Filters
