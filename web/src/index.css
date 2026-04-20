@@ -1,46 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 @theme {
   --color-neonBlue: #45f3ff;
-  --color-darkBg: #020617;
-  --color-darkSurface: #0f172a;
-  --color-grayText: #94a3b8;
-  --color-neonAccent: #22d3ee;
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-darkBg: #0b0c10;
+  --color-darkSurface: #1f2833;
+  --color-grayText: #c5c6c7;
+  --color-neonAccent: #66fcf1;
 }
 
 @layer base {
-  * {
-    scrollbar-width: thin;
-    scrollbar-color: #1e293b transparent;
-  }
-  *::-webkit-scrollbar { width: 6px; height: 6px; }
-  *::-webkit-scrollbar-track { background: transparent; }
-  *::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 999px; }
-  *::-webkit-scrollbar-thumb:hover { background: #334155; }
-
   body {
     background-color: var(--color-darkBg);
     color: var(--color-grayText);
-    font-family: var(--font-sans);
-    @apply antialiased overflow-hidden;
+    @apply antialiased overflow-hidden font-sans;
   }
-
-  ::selection {
-    background: rgba(34, 211, 238, 0.2);
-    color: #e2e8f0;
-  }
-
   h1, h2, h3, h4, h5, h6 {
     @apply text-white font-semibold tracking-tight;
-  }
-
-  /* Recharts tooltip override */
-  .recharts-default-tooltip {
-    background: #0f172a !important;
-    border: 1px solid #1e293b !important;
-    border-radius: 10px !important;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.4) !important;
   }
 }

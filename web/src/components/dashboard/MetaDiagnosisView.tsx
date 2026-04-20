@@ -7,8 +7,6 @@ interface Props { data: MetaAdData[] }
 type Level = 'campaign' | 'adset' | 'creative'
 type SortKey = 'spend' | 'hookRate' | 'holdRate' | 'ctr' | 'cpm' | 'cpa' | 'frequency'
 
-const tooltipStyle = { background: '#0f172a', border: '1px solid #1e293b', color: '#e2e8f0', fontSize: 11, borderRadius: 10 }
-
 export function MetaDiagnosisView({ data }: Props) {
   const [level, setLevel] = useState<Level>('creative')
   const [sortBy, setSortBy] = useState<SortKey>('spend')
@@ -60,9 +58,9 @@ export function MetaDiagnosisView({ data }: Props) {
   const campaigns = [...new Set(data.map(d => d.campaign_name))]
   const adsets = [...new Set(data.filter(d => !selectedCampaign || d.campaign_name === selectedCampaign).map(d => d.adset_name))]
 
-  const hc = (v: number) => v > 35 ? '#34d399' : v > 15 ? '#fbbf24' : '#f87171'
-  const holdC = (v: number) => v > 40 ? '#34d399' : v > 20 ? '#fbbf24' : '#f87171'
-  const cpaC = (v: number) => v === 0 ? '#475569' : v > 300 ? '#f87171' : v > 200 ? '#fbbf24' : '#34d399'
+  const hc = (v: number) => v > 35 ? '#66fcf1' : v > 15 ? '#fbbf24' : '#ef4444'
+  const holdC = (v: number) => v > 40 ? '#66fcf1' : v > 20 ? '#fbbf24' : '#ef4444'
+  const cpaC = (v: number) => v === 0 ? '#555' : v > 300 ? '#ef4444' : v > 200 ? '#fbbf24' : '#66fcf1'
 
   const handleSort = (key: SortKey) => {
     if (sortBy === key) setSortDir(d => d === 'desc' ? 'asc' : 'desc')
@@ -72,50 +70,45 @@ export function MetaDiagnosisView({ data }: Props) {
   const sortIcon = (key: SortKey) => sortBy === key ? (sortDir === 'desc' ? ' ↓' : ' ↑') : ''
 
   return (
-    <div className="flex flex-col gap-5">
+    <div style={{padding:20,display:'flex',flexDirection:'column',gap:20}}>
       {/* Controls Row */}
-      <div className="flex flex-wrap gap-3 items-center">
-        <div className="flex bg-slate-800/60 rounded-lg overflow-hidden border border-slate-700/50">
+      <div style={{display:'flex',gap:10,alignItems:'center',flexWrap:'wrap'}}>
+        <div style={{display:'flex',background:'#1a1a1a',borderRadius:6,overflow:'hidden',border:'1px solid #333'}}>
           {(['creative','adset','campaign'] as Level[]).map(l => (
             <button key={l} onClick={()=>setLevel(l)}
-              className={`px-4 py-2 text-xs font-semibold transition-all ${level===l ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white hover:bg-slate-700/50'}`}>
+              style={{padding:'7px 14px',fontSize:11,fontWeight:level===l?700:400,color:level===l?'#0d0d0d':'#999',background:level===l?'#66fcf1':'transparent',border:'none',cursor:'pointer'}}>
               {l==='creative'?'Criativos':l==='adset'?'Conjuntos':'Campanhas'}
             </button>
           ))}
         </div>
 
-        <Sel label="Campanha" value={selectedCampaign} options={[{v:'',l:'Todas'},...campaigns.map(c=>({v:c,l:c.length>25?c.slice(0,25)+'…':c}))]}
+        <Sel label="Campanha" value={selectedCampaign} options={[{v:'',l:'Todas'},...campaigns.map(c=>({v:c,l:c.length>30?c.slice(0,30)+'…':c}))]}
           onChange={v => { setSelectedCampaign(v); setSelectedAdset('') }} />
-        <Sel label="Conjunto" value={selectedAdset} options={[{v:'',l:'Todos'},...adsets.map(a=>({v:a,l:a.length>20?a.slice(0,20)+'…':a}))]}
+        <Sel label="Conjunto" value={selectedAdset} options={[{v:'',l:'Todos'},...adsets.map(a=>({v:a,l:a}))]}
           onChange={setSelectedAdset} />
 
-        <div className="flex flex-col gap-0.5">
-          <label className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">Gasto Mín.</label>
+        <div style={{display:'flex',flexDirection:'column',gap:2}}>
+          <label style={{fontSize:9,color:'#666',textTransform:'uppercase',letterSpacing:1}}>Gasto Mín.</label>
           <input type="number" value={minSpend} onChange={e=>setMinSpend(+e.target.value)}
-            className="bg-slate-800/60 border border-slate-700/50 rounded-lg px-3 py-1.5 text-slate-300 text-xs w-20 outline-none focus:border-cyan-500 transition-colors" />
+            style={{background:'#1a1a1a',border:'1px solid #333',borderRadius:4,padding:'5px 8px',color:'#ccc',fontSize:11,width:70,outline:'none'}} />
         </div>
 
-        <div className="ml-auto text-[10px] text-slate-500 font-medium">{aggregate.length} itens · {level==='creative'?'Criativos':level==='adset'?'Conjuntos':'Campanhas'}</div>
+        <div style={{marginLeft:'auto',fontSize:10,color:'#555'}}>{aggregate.length} itens · Nível: {level==='creative'?'Criativos':level==='adset'?'Conjuntos':'Campanhas'}</div>
       </div>
 
-      {/* Scatter Plot */}
+      {/* Scatter Plot: Hook Rate vs Hold Rate (creative level reveals patterns) */}
       {level === 'creative' && (
         <Card title="Mapa Hook Rate × Hold Rate × Gasto (por Criativo)">
-          <div className="text-[10px] text-slate-500 mb-3 flex gap-4 flex-wrap">
-            <span><span className="inline-block w-2 h-2 rounded-full bg-emerald-400 mr-1"></span>CPA bom</span>
-            <span><span className="inline-block w-2 h-2 rounded-full bg-amber-400 mr-1"></span>CPA médio</span>
-            <span><span className="inline-block w-2 h-2 rounded-full bg-red-400 mr-1"></span>CPA alto</span>
-            <span className="text-slate-600">Tamanho = Gasto</span>
-          </div>
-          <ResponsiveContainer width="100%" height={280}>
+          <div style={{fontSize:10,color:'#666',marginBottom:8}}>⬤ Verde = CPA bom · ⬤ Amarelo = CPA médio · ⬤ Vermelho = CPA alto · Tamanho = Gasto</div>
+          <ResponsiveContainer width="100%" height={260}>
             <ScatterChart margin={{left:10,bottom:10}}>
-              <XAxis type="number" dataKey="hookRate" name="Hook Rate" unit="%" tick={{fill:'#64748b',fontSize:10}} label={{value:'Hook Rate %',position:'bottom',fill:'#64748b',fontSize:10}} />
-              <YAxis type="number" dataKey="holdRate" name="Hold Rate" unit="%" tick={{fill:'#64748b',fontSize:10}} label={{value:'Hold Rate %',angle:-90,position:'insideLeft',fill:'#64748b',fontSize:10}} />
+              <XAxis type="number" dataKey="hookRate" name="Hook Rate" unit="%" tick={{fill:'#666',fontSize:10}} label={{value:'Hook Rate %',position:'bottom',fill:'#666',fontSize:10}} />
+              <YAxis type="number" dataKey="holdRate" name="Hold Rate" unit="%" tick={{fill:'#666',fontSize:10}} label={{value:'Hold Rate %',angle:-90,position:'insideLeft',fill:'#666',fontSize:10}} />
               <ZAxis type="number" dataKey="spend" range={[40,400]} />
-              <Tooltip cursor={{strokeDasharray:'3 3'}} contentStyle={tooltipStyle}
+              <Tooltip cursor={{strokeDasharray:'3 3'}} contentStyle={{background:'#1a1a1a',border:'1px solid #333',color:'#fff',fontSize:11}}
                 formatter={(v: any,n: any)=>[typeof v==='number'?v.toFixed(1):v, String(n)]} labelFormatter={()=>''} />
               <Scatter data={aggregate.filter(a=>a.format==='video')} name="Criativos">
-                {aggregate.filter(a=>a.format==='video').map((e,i) => <Cell key={i} fill={cpaC(e.cpa)} opacity={0.85} />)}
+                {aggregate.filter(a=>a.format==='video').map((e,i) => <Cell key={i} fill={cpaC(e.cpa)} opacity={0.8} />)}
               </Scatter>
             </ScatterChart>
           </ResponsiveContainer>
@@ -124,10 +117,10 @@ export function MetaDiagnosisView({ data }: Props) {
 
       {/* Main Table */}
       <Card title={`Análise por ${level==='creative'?'Criativo':level==='adset'?'Conjunto':'Campanha'}`}>
-        <div className="overflow-x-auto -mx-1">
-          <table className="w-full text-xs">
+        <div style={{overflowX:'auto'}}>
+          <table style={{width:'100%',borderCollapse:'collapse',fontSize:11}}>
             <thead>
-              <tr className="border-b border-slate-700/50">
+              <tr style={{borderBottom:'1px solid #333'}}>
                 <TH>Nome</TH>
                 <TH sortable onClick={()=>handleSort('spend')}>Gasto{sortIcon('spend')}</TH>
                 <TH sortable onClick={()=>handleSort('hookRate')}>Hook%{sortIcon('hookRate')}</TH>
@@ -142,32 +135,31 @@ export function MetaDiagnosisView({ data }: Props) {
             </thead>
             <tbody>
               {aggregate.map((r,i) => (
-                <tr key={i} className="border-b border-slate-800/50 hover:bg-slate-800/30 transition-colors">
-                  <td className="px-2 py-2.5 text-slate-200 font-medium max-w-[200px] truncate">{r.name}</td>
-                  <td className="px-2 py-2.5 text-slate-400">R$ {r.spend.toLocaleString()}</td>
-                  <td className="px-2 py-2.5 font-semibold" style={{color:hc(r.hookRate)}}>{r.hookRate > 0 ? `${r.hookRate}%` : '—'}</td>
-                  <td className="px-2 py-2.5 font-semibold" style={{color:holdC(r.holdRate)}}>{r.holdRate > 0 ? `${r.holdRate}%` : '—'}</td>
-                  <td className="px-2 py-2.5 text-slate-400">{r.ctr}%</td>
-                  <td className="px-2 py-2.5 text-slate-400">R$ {r.cpm}</td>
-                  <td className="px-2 py-2.5 font-semibold" style={{color:cpaC(r.cpa)}}>{r.cpa > 0 ? `R$ ${r.cpa}` : '—'}</td>
-                  <td className="px-2 py-2.5" style={{color:r.frequency>3?'#f87171':'#64748b'}}>{r.frequency}</td>
-                  <td className="px-2 py-2.5">
+                <tr key={i} style={{borderBottom:'1px solid #141414',transition:'background 0.15s'}}
+                  onMouseEnter={e=>(e.currentTarget.style.background='#151515')}
+                  onMouseLeave={e=>(e.currentTarget.style.background='transparent')}>
+                  <td style={{padding:'8px 6px',color:'#ddd',fontWeight:500,maxWidth:220,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{r.name}</td>
+                  <td style={cs}>R$ {r.spend.toLocaleString()}</td>
+                  <td style={{...cs,color:hc(r.hookRate),fontWeight:600}}>{r.hookRate > 0 ? `${r.hookRate}%` : '—'}</td>
+                  <td style={{...cs,color:holdC(r.holdRate),fontWeight:600}}>{r.holdRate > 0 ? `${r.holdRate}%` : '—'}</td>
+                  <td style={cs}>{r.ctr}%</td>
+                  <td style={cs}>R$ {r.cpm}</td>
+                  <td style={{...cs,color:cpaC(r.cpa),fontWeight:600}}>{r.cpa > 0 ? `R$ ${r.cpa}` : '—'}</td>
+                  <td style={{...cs,color:r.frequency>3?'#ef4444':'#999'}}>{r.frequency}</td>
+                  <td style={cs}>
                     {r.retentionFunnel ? (
-                      <div className="flex gap-1 items-center">
+                      <div style={{display:'flex',gap:2,alignItems:'center'}}>
                         {[{l:'25',v:r.retentionFunnel.v25},{l:'50',v:r.retentionFunnel.v50},{l:'75',v:r.retentionFunnel.v75},{l:'100',v:r.retentionFunnel.v100}].map((s,j) => (
-                          <div key={j} className="rounded px-1.5 py-0.5 text-[9px] text-white min-w-[28px] text-center font-medium"
-                            style={{background:`rgba(34,211,238,${Math.min(+s.v/100,1)*0.5+0.1})`}}>{s.v}%</div>
+                          <div key={j} style={{background:`rgba(102,252,241,${Math.min(+s.v/100,1)*0.6+0.1})`,borderRadius:3,padding:'2px 4px',fontSize:9,color:'#fff',minWidth:28,textAlign:'center'}}>{s.v}%</div>
                         ))}
                       </div>
-                    ) : <span className="text-slate-600">N/A</span>}
+                    ) : <span style={{color:'#555'}}>N/A</span>}
                   </td>
-                  <td className="px-2 py-2.5">
-                    <div className="flex flex-wrap gap-1">
-                      {r.hookRate > 35 && r.holdRate < 25 && <Tag color="amber">Falso Campeão</Tag>}
-                      {r.hookRate < 15 && r.holdRate > 40 && <Tag color="cyan">Diamante Bruto</Tag>}
-                      {r.pctLimited > 50 && <Tag color="red">Limited</Tag>}
-                      {r.frequency > 3 && <Tag color="red">Saturado</Tag>}
-                    </div>
+                  <td style={cs}>
+                    {r.hookRate > 35 && r.holdRate < 25 && <Tag color="#fbbf24">Falso Campeão</Tag>}
+                    {r.hookRate < 15 && r.holdRate > 40 && <Tag color="#66fcf1">Diamante Bruto</Tag>}
+                    {r.pctLimited > 50 && <Tag color="#ef4444">Limited</Tag>}
+                    {r.frequency > 3 && <Tag color="#ef4444">Saturado</Tag>}
                   </td>
                 </tr>
               ))}
@@ -176,15 +168,15 @@ export function MetaDiagnosisView({ data }: Props) {
         </div>
       </Card>
 
-      {/* Chart */}
+      {/* Chart: Top creatives by selected metric */}
       <Card title={`Ranking por ${sortBy === 'hookRate' ? 'Hook Rate' : sortBy === 'holdRate' ? 'Hold Rate' : sortBy === 'ctr' ? 'CTR' : sortBy === 'cpm' ? 'CPM' : sortBy === 'cpa' ? 'CPA' : sortBy === 'frequency' ? 'Frequência' : 'Gasto'}`}>
-        <ResponsiveContainer width="100%" height={Math.max(aggregate.slice(0,12).length * 30, 100)}>
+        <ResponsiveContainer width="100%" height={Math.max(aggregate.slice(0,12).length * 28, 100)}>
           <BarChart data={aggregate.slice(0,12)} layout="vertical" margin={{left:10}}>
-            <XAxis type="number" tick={{fill:'#64748b',fontSize:10}} />
-            <YAxis type="category" dataKey="name" width={160} tick={{fill:'#94a3b8',fontSize:9}} />
-            <Tooltip contentStyle={tooltipStyle} />
-            <Bar dataKey={sortBy} name={sortBy} radius={[0, 4, 4, 0]}>
-              {aggregate.slice(0,12).map((_,i) => <Cell key={i} fill={i < 3 ? '#22d3ee' : i < 6 ? '#fbbf24' : '#334155'} />)}
+            <XAxis type="number" tick={{fill:'#666',fontSize:10}} />
+            <YAxis type="category" dataKey="name" width={180} tick={{fill:'#999',fontSize:9}} />
+            <Tooltip contentStyle={{background:'#1a1a1a',border:'1px solid #333',color:'#fff',fontSize:11}} />
+            <Bar dataKey={sortBy} name={sortBy}>
+              {aggregate.slice(0,12).map((_,i) => <Cell key={i} fill={i < 3 ? '#66fcf1' : i < 6 ? '#fbbf24' : '#555'} />)}
             </Bar>
           </BarChart>
         </ResponsiveContainer>
@@ -193,41 +185,32 @@ export function MetaDiagnosisView({ data }: Props) {
   )
 }
 
+const cs: React.CSSProperties = {padding:'8px 6px',color:'#999',fontSize:11}
+
 function TH({children,sortable,onClick}: {children:React.ReactNode,sortable?:boolean,onClick?:()=>void}) {
-  return (
-    <th onClick={onClick}
-      className={`text-left px-2 py-2.5 text-slate-500 font-semibold text-[10px] uppercase tracking-wider select-none ${sortable ? 'cursor-pointer hover:text-slate-300 transition-colors' : ''}`}>
-      {children}
-    </th>
-  )
+  return <th onClick={onClick} style={{textAlign:'left',padding:'8px 6px',color:'#888',fontWeight:600,fontSize:9,textTransform:'uppercase' as const,letterSpacing:0.5,cursor:sortable?'pointer':'default',userSelect:'none'}}>{children}</th>
 }
 
 function Card({title,children}: {title:string,children:React.ReactNode}) {
   return (
-    <div className="bg-slate-900/50 border border-slate-700/40 rounded-xl p-5 backdrop-blur-sm">
-      <h3 className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest mb-4">{title}</h3>
+    <div style={{background:'#111',border:'1px solid #1a1a1a',borderRadius:8,padding:16}}>
+      <h3 style={{fontSize:12,fontWeight:600,color:'#888',textTransform:'uppercase',letterSpacing:1,marginBottom:12}}>{title}</h3>
       {children}
     </div>
   )
 }
 
-const tagColors: Record<string, string> = {
-  amber: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
-  cyan: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20',
-  red: 'bg-red-500/10 text-red-400 border-red-500/20',
-}
-
 function Tag({color,children}: {color:string,children:React.ReactNode}) {
-  return <span className={`inline-block text-[9px] font-semibold px-2 py-0.5 rounded-full border ${tagColors[color] || tagColors.cyan}`}>{children}</span>
+  return <span style={{display:'inline-block',background:`${color}22`,color,fontSize:9,fontWeight:600,padding:'2px 6px',borderRadius:4,marginRight:4}}>{children}</span>
 }
 
 function Sel({label,value,options,onChange}: {label:string,value:string,options:{v:string,l:string}[],onChange:(v:string)=>void}) {
   return (
-    <div className="flex flex-col gap-0.5">
-      <label className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">{label}</label>
+    <div style={{display:'flex',flexDirection:'column',gap:2}}>
+      <label style={{fontSize:9,color:'#666',textTransform:'uppercase',letterSpacing:1}}>{label}</label>
       <select value={value} onChange={e=>onChange(e.target.value)}
-        className="bg-slate-800/60 border border-slate-700/50 rounded-lg px-3 py-1.5 text-slate-300 text-xs outline-none cursor-pointer max-w-[180px] focus:border-cyan-500 transition-colors">
-        {options.map(o => <option key={o.v} value={o.v} className="bg-slate-900">{o.l}</option>)}
+        style={{background:'#1a1a1a',border:'1px solid #333',borderRadius:4,padding:'5px 8px',color:'#ccc',fontSize:11,outline:'none',cursor:'pointer',maxWidth:200}}>
+        {options.map(o => <option key={o.v} value={o.v}>{o.l}</option>)}
       </select>
     </div>
   )
